@@ -1,8 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
-## teste de atualização
-## Write a short comment describing this function
-## Primeira vers�o
+## Primeira versão
+## Baseado nos exemplos publicados com a especificação da tarefa
+## 
 ##
 makeCacheMatrix <- function(x = matrix()) {
   m<-NULL
@@ -19,7 +17,7 @@ list(set=set, get=get,
 }
 
 
-## Write a short comment describing this function
+## Versão inicial
 
 cacheSolve <- function(x=matrix(), ...) {
     m<-x$getmatrix()
