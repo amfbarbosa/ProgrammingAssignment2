@@ -11,7 +11,7 @@ makeCacheMatrix <- function(x = matrix()) {
   get<-function() x
   setmatrix<-function(solve) m<<- solve
   getmatrix<-function() m
-  list(set = et, get = get, setmatrix = setmatrix, getmatrix = getmatrix)
+  list(set = set, get = get, setmatrix = setmatrix, getmatrix = getmatrix)
 }
 
 ## This function computes the inverse of the special "matrix" returned by makeCacheMatrix 
